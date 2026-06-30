@@ -166,12 +166,22 @@ The score is derived from:
 
 # System Architecture
 
-![Architecture](screenshots/architecture.png)
+![alt text](architecture1.png)
 
 ---
 
 # Dashboard Features
+# 📊 Dashboard Overview
 
+The Streamlit dashboard consists of six major sections.
+
+### 📝 Job Description
+- Executive Hiring Summary
+- Editable Job Description
+- Role Focus Area Detection
+![alt text](<JD tab.png>)
+![alt text](image.png)
+---
 ## 🏆 Ranked Candidate Shortlist
 
 Displays the most relevant candidates with:
@@ -181,7 +191,7 @@ Displays the most relevant candidates with:
 * Recruiter Confidence Score
 * Hidden Gem Indicators
 
-![Shortlist](screenshots/shortlist.png)
+![alt text](Shortlist.png)
 
 ---
 
@@ -195,8 +205,8 @@ Provides detailed explanations for every recommendation including:
 * Recruiter confidence
 * Final recommendation
 
-![Deep Dive](screenshots/deep_dive.png)
-
+![alt text](Deepdive1.png)
+![alt text](Deepdive2.png)
 ---
 
 ## 📊 Capability Radar Charts
@@ -224,8 +234,11 @@ For each hidden gem, TalentRankAI explains:
 * What strengths make them relevant
 * Why recruiters should consider them
 
-![Hidden Gems](screenshots/hidden_gems.png)
+![alt text](hidden_Gem1.png)
 
+![alt text](hidden_gem2.png)
+
+![alt text](hidden_gem3.png)
 ---
 
 ## ⚖ Candidate Comparison
@@ -238,9 +251,9 @@ Allows recruiters to compare candidates side-by-side using:
 * Capability Radar Charts
 
 This helps recruiters make more informed shortlisting decisions.
+![alt text](compare1.png)
 
-![Comparison](screenshots/comparison.png)
-
+![alt text](campare2.png)
 ---
 
 # Technology Stack
@@ -320,6 +333,28 @@ python validate_submission.py outputs/final_submission.csv
 ```
 The challenge dataset is not included in this repository due to GitHub file size limits. Place candidates.jsonl inside the data/ folder before running the ranking pipeline.
 ---
+## Key Features
+
+• 📄 Job Description Understanding
+  Recruiters can paste or edit a job description. The challenge JD is preloaded by default.
+
+• 🧠 Hybrid Candidate Scoring
+  Combines profile attributes, career history, and behavioral signals.
+
+• 🔍 Semantic Reranking
+  Uses Sentence Transformers to understand contextual relevance beyond keywords.
+
+• 💎 Hidden Gem Discovery
+  Surfaces overlooked candidates with strong semantic alignment.
+
+• 📊 Recruiter Confidence Score
+  Provides an interpretable confidence score for every recommendation.
+
+• ⚖ Candidate Comparison
+  Compare multiple candidates side-by-side using scores and capability charts.
+
+• 📈 Explainable Dashboard
+  Visualizes rankings, reasoning, confidence, and hidden gem insights.
 
 # Future Enhancements
 

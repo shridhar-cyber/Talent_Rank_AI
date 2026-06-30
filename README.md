@@ -318,7 +318,7 @@ Validate submission:
 ```bash
 python validate_submission.py outputs/final_submission.csv
 ```
-
+The challenge dataset is not included in this repository due to GitHub file size limits. Place candidates.jsonl inside the data/ folder before running the ranking pipeline.
 ---
 
 # Future Enhancements

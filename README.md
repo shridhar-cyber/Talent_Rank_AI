@@ -166,7 +166,7 @@ The score is derived from:
 
 # System Architecture
 
-![alt text](architecture1.png)
+![System Architecture](screenshots/architecture1.png)
 
 ---
 
@@ -179,8 +179,8 @@ The Streamlit dashboard consists of six major sections.
 - Executive Hiring Summary
 - Editable Job Description
 - Role Focus Area Detection
-![alt text](<JD tab.png>)
-![alt text](image.png)
+![Job Description](screenshots/JD%20tab.png)
+![Executive Summary](screenshots/JD%202.png)
 ---
 ## 🏆 Ranked Candidate Shortlist
 
@@ -191,7 +191,7 @@ Displays the most relevant candidates with:
 * Recruiter Confidence Score
 * Hidden Gem Indicators
 
-![alt text](Shortlist.png)
+![Ranked Shortlist](screenshots/Shortlist.png)
 
 ---
 
@@ -205,8 +205,9 @@ Provides detailed explanations for every recommendation including:
 * Recruiter confidence
 * Final recommendation
 
-![alt text](Deepdive1.png)
-![alt text](Deepdive2.png)
+![Deep Dive 1](screenshots/Deepdive1.png)
+![Deep Dive 2](screenshots/Deepdive2.png)
+
 ---
 
 ## 📊 Capability Radar Charts
@@ -234,11 +235,11 @@ For each hidden gem, TalentRankAI explains:
 * What strengths make them relevant
 * Why recruiters should consider them
 
-![alt text](hidden_Gem1.png)
+![Hidden Gem 1](screenshots/hidden_Gem1.png)
 
-![alt text](hidden_gem2.png)
+![Hidden Gem 2](screenshots/hidden_gem2.png)
 
-![alt text](hidden_gem3.png)
+![Hidden Gem 3](screenshots/hidden_gem3.png)
 ---
 
 ## ⚖ Candidate Comparison
@@ -251,9 +252,9 @@ Allows recruiters to compare candidates side-by-side using:
 * Capability Radar Charts
 
 This helps recruiters make more informed shortlisting decisions.
-![alt text](compare1.png)
+![Comparison 1](screenshots/compare1.png)
 
-![alt text](campare2.png)
+![Comparison 2](screenshots/campare2.png)
 ---
 
 # Technology Stack
